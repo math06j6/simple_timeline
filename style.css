@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*------ Styling from the timeline file -----*/
+
+.dot {
+  stroke: #000;
+  stroke-miterlimit: 10;
+}
+.cls-3 {
+  fill: #dff3ff;
+}
+.dot {
+  fill: #fcf6e8;
+  stroke-width: 8px;
+}
+/*-------------------------------------------*/
+
+/*------ Styling from the infobox file -----*/
+.Graphic_x0020_Style {
+  fill: #dff3ff;
+  stroke: #000000;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+.st0 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+.st1 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+}
+.st2 {
+  fill: #dff3ff;
+}
+.st3 {
+  font-family: "FootlightMTLight";
+}
+.st4 {
+  font-size: 36px;
+}
+.st5 {
+  fill: #808080;
+}
+.st6 {
+  font-size: 18px;
+}
+.st7 {
+  fill: #999999;
+}
+.st8 {
+  fill: #b3b3b3;
+}
+.st9 {
+  font-family: "Gadugi";
+}
+.st10 {
+  fill: #fcf6e8;
+  stroke: #000000;
+  stroke-width: 8;
+  stroke-miterlimit: 10;
+}
+
+/*-------------------------------------------*/
+
+#pointer {
+  visibility: hidden;
+}
+
+#infobox {
+  max-width: 600px;
+}
+
+.info {
+  position: absolute;
+  width: 50vw;
+}
+
+#timeline {
+  stroke-dasharray: 2147.089;
+  stroke-dashoffset: 2147.089;
+  animation: draw 5s linear 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes draw {
+  0% {
+    stroke-dashoffset: 2147.089;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.info {
+  position: absolute;
+  width: 50vw;
+}
+
+.hidden {
+  display: none;
+}
